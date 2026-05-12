@@ -1,0 +1,54 @@
+/* Root variables */
+:root {
+  --primary-color: #6366f1;
+  --text-color: #1f2937;
+  --bg-color: #f9fafb;
+  --link-color: #4f46e5;
+}
+
+/* Body */
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
